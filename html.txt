@@ -1,0 +1,45 @@
+1.What does HTML stand for, and what is its role in web development?
+HTML stands for Hypertext Markup Language. It is the standard markup language for creating web pages and is used to structure content on the web.
+
+2.What is the basic structure of an HTML document?
+An HTML document typically consists of an opening <!DOCTYPE>, an opening <html> tag, a <head> section for metadata, and a <body> section for content.
+
+3.Explain the purpose of HTML elements and tags.
+HTML elements are the building blocks of an HTML document, and they are enclosed in HTML tags. Elements define the structure and content of a web page.
+
+4.What is the difference between HTML and XHTML?
+XHTML is a stricter and more standardized version of HTML. It requires well-formed documents, follows strict syntax rules, and enforces proper nesting and closing of tags.
+
+5.How do you create a hyperlink in HTML?
+You can create a hyperlink in HTML using the <a> (anchor) element. Set the href attribute to specify the URL to link to.
+
+6.What is the purpose of headings (<h1> to <h6>) in HTML?
+Headings are used to define the structure and hierarchy of content on a web page, with <h1> being the highest level (most important) and <h6> being the lowest level.
+
+7.How do you create an ordered list and an unordered list in HTML?
+An ordered list is created with the <ol> element, and list items are defined with <li>. An unordered list is created with the <ul> element.
+
+8.Explain the use of the <img> element in HTML.
+The <img> element is used to embed images in an HTML document. It requires the src attribute to specify the image file's source.
+
+9.What is the purpose of the <table> element in HTML, and how do you create a table with rows and columns?
+
+The <table> element is used to create tables. Tables consist of rows (<tr>) and columns (<td> for data cells or <th> for header cells). Use the <thead>, <tbody>, and <tfoot> elements to group table sections.
+Explain the use of HTML forms, and how do you create a form with input fields?
+HTML forms are used to collect user input. Form elements like <input>, <textarea>, and <select> are used to create form controls. The <form> element encloses these controls.
+
+10.What is the purpose of semantic HTML elements, and can you provide some examples of semantic elements?
+Semantic HTML elements provide meaning and structure to the content. Examples include <header>, <nav>, <section>, <article>, <footer, and more.
+
+11.How do you comment your HTML code?
+HTML comments are created using <!-- to start a comment and --> to end it. Comments are not displayed on the web page and are used for documentation.
+
+12.Explain the difference between the <div> and <span> elements.
+<div> is a block-level element used to group and style larger sections of content. <span> is an inline element used for smaller text or inline styling.
+
+13.What are self-closing tags in HTML, and can you provide examples?
+
+Self-closing tags don't have a closing tag and are used for elements that don't contain content. Examples include <img>, <br>, and <input>.
+How do you add metadata to an HTML document?
+
+Metadata is added to an HTML document using the <head> section. Common metadata tags include <meta>, <title>, and <link> for linking to external resources like stylesheets

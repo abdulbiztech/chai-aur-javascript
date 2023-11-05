@@ -1,0 +1,45 @@
+What is React.js, and what are its main features?
+
+React.js is an open-source JavaScript library for building user interfaces. Its main features include a virtual DOM for efficient rendering, component-based architecture, and a unidirectional data flow.
+Explain the concept of the virtual DOM in React.
+
+The virtual DOM is a lightweight in-memory representation of the actual DOM. React uses it to optimize and batch updates, reducing the need for direct manipulation of the real DOM, which can be slow.
+What is JSX in React, and how does it differ from HTML?
+
+JSX (JavaScript XML) is an extension to JavaScript used for defining React elements. It looks similar to HTML but is transpiled to JavaScript. JSX allows you to write HTML-like code within JavaScript.
+What are React components, and how do you create them?
+
+React components are the building blocks of a React application. You can create components using either class components or function components. Class components extend React.Component, while function components are JavaScript functions that return JSX.
+Explain the difference between state and props in React.
+
+State is used to manage data that can change over time within a component. Props (short for properties) are used to pass data from a parent component to a child component. Props are immutable, while state is mutable.
+What is the purpose of setState in React, and how does it work?
+
+setState is used to update the state of a React component. It schedules a re-render of the component with the updated state. It can take an object or a function as an argument to update the state.
+What is the component lifecycle in React, and what are some lifecycle methods?
+
+The component lifecycle consists of three phases: mounting, updating, and unmounting. Some commonly used lifecycle methods include componentDidMount, componentDidUpdate, and componentWillUnmount.
+Explain the concept of conditional rendering in React.
+
+Conditional rendering is the practice of rendering components or content based on certain conditions or state. It involves using conditional statements or ternary operators to determine what gets rendered.
+What is the purpose of keys in React lists, and why are they important?
+
+Keys are used to uniquely identify elements in a list of components. They help React efficiently update and re-render lists when items are added, removed, or reordered.
+What is the React context API, and how is it used for state management?
+
+The React context API is used for managing global state in a React application. It provides a way to pass data through the component tree without having to pass props manually at every level.
+How do you handle forms in React, and what is controlled and uncontrolled components?
+
+Forms in React can be handled by using controlled components, where the form elements are controlled by React state, or uncontrolled components, where form elements are accessed via refs.
+What is React Router, and why is it used in React applications?
+
+React Router is a popular library for adding client-side routing to React applications. It allows you to navigate between different views or components without a full page reload.
+What are React hooks, and can you explain the useState and useEffect hooks?
+
+React hooks are functions that allow functional components to manage state and side effects. useState is used for managing component state, and useEffect is used for performing side effects in functional components.
+How do you fetch data from an API in a React component?
+
+Data can be fetched from an API using the fetch API, libraries like Axios, or using built-in hooks like useEffect in functional components.
+What is the purpose of the render method in class components in React?
+
+The render method is responsible for rendering the JSX of a class component. It defines what the component's UI should look like based on its current state and props.
