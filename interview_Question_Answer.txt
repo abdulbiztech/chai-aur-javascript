@@ -1,0 +1,101 @@
+1.What is JavaScript, and what is its role in web development?
+Ans: JavaScript is a high-level, dynamic, and interpreted programming language used primarily for front-end web development. It allows developers to add interactivity, manipulate the Document Object Model (DOM), and create dynamic content in web applications.
+
+2.How do you include JavaScript in an HTML page?
+Ans: JavaScript can be included in an HTML page using either the <script> element in the HTML document's <head> or <body> section or by linking to an external JavaScript file using the <script> element's src attribute.
+
+3.Explain the difference between let, const, and var in JavaScript for declaring variables.
+Ans: let and const are block-scoped variable declarations introduced in ES6 (ECMAScript 2015), while var is function-scoped. let allows variable reassignment, whereas const declares constants. Variables declared with var have function scope and can be reassigned.
+
+4.What are data types in JavaScript, and can you provide examples of each?
+Ans: JavaScript has primitive data types like strings, numbers, booleans, null, and undefined, and reference data types like objects and arrays. Example: let name = "John";, let age = 30;, let isStudent = true;, let person = null;, let value;, let personObj = { name: "Alice" };, let numbers = [1, 2, 3];.
+
+5.How do you declare and define a function in JavaScript?
+Ans: You can declare a function using the function keyword or using arrow functions in ES6.
+For example:
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+// ES6 arrow function
+const add = (a, b) => a + b;
+
+6.What is the difference between null and undefined in JavaScript?
+Ans: null is an explicitly assigned value representing the absence of any object value. undefined is a variable that has been declared but hasn't been assigned any value. It's also the default return value of functions that don't explicitly return anything.
+
+7.How do you comment your code in JavaScript, and what are the types of comments?
+Ans: You can use single-line comments with // and multi-line comments with /* ... */. Single-line comments are used for brief explanations, while multi-line comments are for longer explanations or disabling code.
+
+8.What is the purpose of the if statement, and how does it work?
+Ans: The if statement is used for conditional execution of code. It evaluates a condition inside the parentheses and executes the code block if the condition is true. If the condition is false, the code block is skipped.
+
+9.What are arrays in JavaScript, and how do you create and access elements in an array?
+Ans: Arrays are ordered collections of elements in JavaScript. You can create an array using square brackets [], and access elements by their index. 
+For example:
+let fruits = ["apple", "banana", "cherry"];
+console.log(fruits[0]); // "apple"
+
+10.Describe the purpose of loops in JavaScript, and provide examples of for and while loops.
+Ans: Loops are used to repeat a block of code multiple times. A for loop is used when you know the number of iterations in advance, while a while loop is used when the number of iterations is not known in advance. 
+Examples:
+// for loop
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+// while loop
+let count = 0;
+while (count < 5) {
+  console.log(count);
+  count++;
+}
+
+11.How do you handle errors in JavaScript, and what is the purpose of try...catch blocks?
+Ans: Error handling in JavaScript is accomplished using try...catch blocks. The try block contains code that might throw an exception, while the catch block handles the error if one occurs. 
+For example:
+try {
+  // Code that may throw an error
+  throw new Error("Something went wrong");
+} catch (error) {
+  console.error("An error occurred:", error.message);
+}
+
+12.What is the difference between == and === in JavaScript, and when should you use each for comparisons?
+Ans: == is a loose equality operator that performs type coercion, while === is a strict equality operator that checks both value and type. It is generally recommended to use === for precise comparisons, as it avoids unexpected type conversions.
+
+13.What is a closure in JavaScript, and can you provide an example of how to create one?
+Ans: A closure is a function that "closes over" its surrounding scope, allowing it to access variables from outer functions even after they have completed execution. Here's an example:
+function outerFunction() {
+  const outerVariable = "I'm from the outer function";
+
+  function innerFunction() {
+    console.log(outerVariable); // Inner function has access to outerVariable
+  }
+
+  return innerFunction;
+}
+
+const closure = outerFunction();
+closure(); // This will log "I'm from the outer function"
+
+14.What is the Document Object Model (DOM) in the context of web development, and how do you manipulate it using JavaScript?
+Ans:
+The DOM is a programming interface for web documents. It represents the structure of a web page as a tree of objects where each part of the web page (e.g., elements, attributes) is an object. JavaScript can manipulate the DOM to dynamically change the content, structure, and styles of a web page.
+
+15.How do you bind event handlers to HTML elements in JavaScript, and can you provide examples of common events like click and keyup?
+Ans: Event handlers can be bound using the addEventListener method. Examples:
+
+const button = document.getElementById('myButton');
+button.addEventListener('click', function() {
+  console.log('Button clicked');
+});
+
+const inputField = document.getElementById('myInput');
+inputField.addEventListener('keyup', function(event) {
+  console.log('Key pressed:', event.key);
+});
+
+16.What is asynchronous programming in JavaScript, and how do you work with asynchronous tasks using callbacks and promises?
+Ans: Asynchronous programming is a method of dealing with tasks that may take some time to complete. Callbacks and promises are used for managing asynchronous operations in JavaScript. Callbacks are functions passed as arguments to be executed when an asynchronous task is complete. Promises provide a more structured and reliable way to handle asynchronous operations.
+
+17.Describe what scope is in JavaScript and the difference between global and local scope.
+Ans:
+Scope in JavaScript determines the accessibility of variables and functions. Global scope encompasses the entire program, while local scope is limited to a specific block, function, or code segment. Variables declared in the global scope are accessible from anywhere, while local variables are only accessible within their scope.
